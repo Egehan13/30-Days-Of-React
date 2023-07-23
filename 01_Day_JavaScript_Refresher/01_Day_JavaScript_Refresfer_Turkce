@@ -1,0 +1,34 @@
+JavaScript Refresher
+0. Web Sayfasına JavaScript Ekleme
+JavaScript bir web sayfasına üç farklı şekilde eklenebilir:
+
+Satır içi komut dosyası
+Dahili senaryo
+Harici senaryo
+Çoklu Harici komut dosyaları
+Aşağıdaki bölümlerde web sayfanıza JavaScript kodu eklemenin farklı yolları gösterilmektedir.
+
+Satır İçi Komut Dosyası
+Masaüstünüzde veya herhangi bir yerde bir proje klasörü oluşturun, adını 30DaysOfJS koyun ve proje klasöründe bir index.html dosyası oluşturun. Ardından aşağıdaki kodu yapıştırın ve Chrome gibi bir tarayıcıda açın.
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>30DaysOfScript:Inline Script</title>
+  </head>
+  <body>
+    <button onclick="alert('Welcome to 30DaysOfJavaScript!')">Click Me</button>
+  </body>
+</html>
+Şimdi, ilk satır içi kodunuzu yazdınız. alert() yerleşik fonksiyonunu kullanarak bir açılır uyarı mesajı oluşturabiliriz.
+Dahili Script
+Dahili komut dosyası baş veya gövde kısmına yazılabilir, ancak HTML belgesinin gövdesine yerleştirilmesi tercih edilir. İlk olarak sayfanın baş kısmına yazalım.
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>30DaysOfScript:Internal Script</title>
+    <script>
+      console.log('Welcome to 30DaysOfJavaScript')
+    </script>
+  </head>
+  <body></body>
+</html>
