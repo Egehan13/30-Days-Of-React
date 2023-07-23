@@ -32,3 +32,20 @@ Dahili komut dosyası baş veya gövde kısmına yazılabilir, ancak HTML belges
   </head>
   <body></body>
 </html>
+Çoğu zaman dahili bir komut dosyasını bu şekilde yazarız. JavaScript kodunu body bölümüne yazmak en çok tercih edilen seçenektir. console.log() çıktısını görmek için tarayıcı konsolunu açın
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>30DaysOfScript:Internal Script</title>
+  </head>
+  <body>
+    <button onclick="alert('Welcome to 30DaysOfJavaScript!');">Click Me</button>
+    <script>
+      console.log('Welcome to 30DaysOfJavaScript')
+    </script>
+  </body>
+</html>
+console.log() çıktısını görmek için tarayıcı konsolunu açın
+
+Harici Script
+Dahili komut dosyasına benzer şekilde, harici komut dosyası bağlantısı başlıkta veya gövdede olabilir, ancak gövdeye yerleştirilmesi tercih edilir. Öncelikle .js uzantılı harici bir JavaScript dosyası oluşturmalıyız. .js uzantısı ile biten tüm dosyalar. .js uzantısı ile biten tüm dosyalar JavaScript dosyalarıdır. Proje dizininizin içinde introduction.js adında bir dosya oluşturun ve aşağıdaki kodu yazarak bu .js dosyasını body'nin en altına bağlayın.
